@@ -11,8 +11,11 @@ class HomeController < ApplicationController
     @my_coins = ["BTC", "XRP", "ADA", "XLM"]
   end
 
-
   def about
+  end
+
+  def lookup
+    @symbol = params[:sym]
   end
 
 end
