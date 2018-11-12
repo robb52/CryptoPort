@@ -12,3 +12,195 @@
  *
  */
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Martel|Prata|Secular+One');
+
+h1.home {
+  padding-top: 30px;
+  font-family: 'Secular One', sans-serif;
+  padding-left: 135px;
+  font-size: 35px;
+  font-family: 'Secular One', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.container.home {
+  background-image: linear-gradient(to right, rgba(102,102,255,0), rgba(102,102,255,1));
+  font-size: 15px;
+  border: solid 1px black;
+  border-radius: 3px;
+  box-shadow: 10px 10px grey;
+  font-family: 'Martel', serif;
+}
+
+.navbar-brand {
+  padding-left: 30px;
+  font-family: 'Prata', serif;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.navbar.navbar-expand-lg {
+  background-color: #000099;
+}
+
+a {
+  padding: 10px;
+}
+
+.container.about {
+  padding-top: 30px;
+  font-family: 'Secular One', sans-serif;
+}
+
+h1.about {
+  font-size: 35px;
+}
+
+h4.body.text {
+  font-size: 20px;
+}
+
+.container.look {
+  margin-top: 30px;
+  width: 700px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  padding: 1.5em 1.25em;
+}
+
+h1.crypto {
+  padding-top: 30px;
+ margin-bottom: -90px;
+ font-family: 'Secular One', sans-serif;
+ font-size: 35px;
+}
+
+.btn.btn-success {
+ margin-left: 150px;
+ margin-top: 15px;
+}
+
+.container.crypt.show {
+  margin-top: 20px;
+  width: 700px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  padding: 1.5em 1.25em;
+}
+
+h2.crypt.name {
+  font-family: 'Martel', serif;
+}
+
+div.button-group {
+  margin-top: 20px;
+  margin-left: 365px;
+}
+
+.container.edit {
+  font-family: 'Secular One', sans-serif;
+  margin-top: 40px;
+  width: 500px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  padding: 1.5em 1.25em;
+}
+
+.btn.edit {
+  margin-top: 20px;
+  margin-left: 450px; 
+}
+
+.lookup {
+  font-size: 30px;
+  font-family: 'Secular One', sans-serif;
+}
+
+.container.new {
+  font-family: 'Secular One', sans-serif;
+  margin-top: 40px;
+  width: 500px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  padding: 1.5em 1.25em;
+}
+
+.btn.new {
+  margin-top: 20px;
+  margin-left: 450px;
+}
+
+.cancel {
+  margin-top: 20px;
+  margin-left: 450px;
+  font-family: 'Secular One', sans-serif;
+  margin-top: 40px;
+  width: 400px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  padding: 1.5em 1.25em;
+}
+
+.btn.back {
+  margin-top: 20px;
+  margin-left: 440px;
+}
+
+.btn.btn-primary {
+  margin-top: 20px;
+  margin-left: 460px;
+}
+
+.container.log.in {
+  margin-top: 20px;
+  margin-left: 450px;
+  font-family: 'Secular One', sans-serif;
+  margin-top: 40px;
+  width: 500px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  padding: 1.5em 1.25em;
+}
+
+input.btn.btn-primary {
+  margin-right: 600px;
+}
+
+.container.forgot {
+  margin-top: 20px;
+  margin-left: 450px;
+  font-family: 'Secular One', sans-serif;
+  margin-top: 40px;
+  width: 500px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  padding: 1.5em 1.25em;
+}
+
+.container.devise.edit {
+  margin-top: 20px;
+  margin-left: 450px;
+  font-family: 'Secular One', sans-serif;
+  margin-top: 40px;
+  width: 400px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  padding: 1.5em 1.25em;
+}

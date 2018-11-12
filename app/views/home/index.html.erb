@@ -1,16 +1,25 @@
-<h1>Home Page</h1>
+<h1 class="home">Crypto Currency</h1>
 
-<br/><br/>
+<div class="container home">
+ 
+  <% @coins %>
 
-<% @coins %>
-
-<% for x in @coins %>
-  <% for coin in @my_coins %>
-    <% if coin == x["symbol"] %><br/>
-      <%= x["name"] %>: $<%=x["price_usd"] %><br>
-      Rank: <%= x["rank"] %> <br/>
+  <% for x in @coins %>
+    <% for coin in @my_coins %>
+      <% if coin == x["symbol"] %><br/>
+        <%= x["name"] %>:<br/> 
+        $<%=x["price_usd"] %><br>
+        Rank: <%= x["rank"] %> <br/>
+      <% end %>
     <% end %>
   <% end %>
-<% end %>
+ 
+</div>
+ 
 
 
+
+  
+    
+    
+  
